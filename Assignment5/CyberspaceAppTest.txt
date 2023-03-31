@@ -1,0 +1,43 @@
+Test 1:
+Please enter URLs (one per line) below; Type q to quit:
+http://www.wellesley.edu
+http://www.wellesley.edu/cs
+https://www.netflix.com
+https://www.cnn.com
+q
+Results from visiting 4 pages (LIFO order):
+<top of stack>
+https://www.cnn.com: 184 : <!DOCTYPE html><html class="no...
+https://www.netflix.com: 90 : <!doctype html><html lang="en"...
+http://www.wellesley.edu/cs: 7 : <!DOCTYPE HTML PUBLIC "-//IETF...
+http://www.wellesley.edu: 7 : <!DOCTYPE HTML PUBLIC "-//IETF...
+<bottom of stack>
+
+The largest Webpage was: https://www.cnn.com: 184 : <!DOCTYPE html><html class="no...
+
+---------------------------------------------------------------------------------------
+Test 2: 
+Please enter URLs (one per line) below; Type q to quit:
+http://www.google.com
+http://www.bing.com
+http://www.noaa.gov
+q
+Results from visiting 3 pages (LIFO order):
+<top of stack>
+http://www.noaa.gov: 7 : <html><head><title>301 Moved P...
+http://www.bing.com: 21 : <!doctype html><html lang="en"...
+http://www.google.com: 19 : <!doctype html><html itemscope...
+<bottom of stack>
+
+The largest Webpage was: http://www.bing.com: 21 : <!doctype html><html lang="en"...
+
+----------------------------------------------------------------------------------------
+Test 3 (Edge Case): 
+Please enter URLs (one per line) below; Type q to quit:
+q
+Results from visiting 0 pages (LIFO order):
+<top of stack>
+<bottom of stack>
+
+javafoundations.exceptions.EmptyCollectionException: Pop operation failed. Stack is empty.
+The largest Webpage was: null

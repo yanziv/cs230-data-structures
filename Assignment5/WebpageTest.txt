@@ -1,0 +1,15 @@
+Testing getter methods:
+Url of w1: http://www.google.com
+Number of lines of w2: 21
+HTML of w3: <!doctype html><html lang="en"
+
+Test compareTo(): comparing w1 to w2
+Output: -1
+
+Test compareTo(): comparing w2 to w3
+Output: -1
+
+Testing toString() method:
+http://www.google.com: 19 : <!doctype html><html itemscope...
+http://www.bing.com: 21 : <!doctype html><html lang="en"...
+https://www.netflix.com: 90 : <!doctype html><html lang="en"...

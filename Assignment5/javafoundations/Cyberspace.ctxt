@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Cyberspace
+comment0.text=\n\ Write\ a\ description\ of\ class\ Cyberspace\ here.\n\n\ @author\ sk105,\ yl102\n\ @version\ 11/01/2021\n
+comment1.params=
+comment1.target=Cyberspace()
+comment1.text=\n\ Constructor\n\ Construct\ a\ Cyberspace\ object\ \n
+comment2.params=newSite
+comment2.target=void\ add(Webpage)
+comment2.text=\n\ Add\ a\ new\ website\ to\ the\ \n
+comment3.params=
+comment3.target=Webpage\ findLargest()
+comment4.params=
+comment4.target=void\ printWebStack()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

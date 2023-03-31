@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Airport
+comment0.text=\n\ class\ Airport\ keeps\ track\ of\ the\ flights\ that\ use\ a\ certain\ airport\n\n\ @author\ Veronica\ Lin\ yl102\n\ @version\ 10/03/2021\n
+comment1.params=name
+comment1.target=Airport(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Airport\n\ @param\ name\ The\ name\ of\ the\ airport\n
+comment2.params=f
+comment2.target=void\ addFlight(Flight)
+comment2.text=\n\ @param\ f\ A\ Flight\ object\n\ takes\ a\ Flight\ as\ input\ and\ adds\ it\ to\ the\ array\ of\ Flights\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Returns\ a\ String\ representation\ of\ this\ airport\n\ Overrides\ the\ toString\ in\ class\ java.lang.Object\n\ @return\ a\ String\ representation\ of\ this\ airport,\ containing\ its\ capacity,\n\ the\ number\ of\ flights\ it\ currently\ serves,\ as\ well\ as\ those\ flights.\n
+comment4.params=inputAirline
+comment4.target=Flight[]\ findFlightsByAirline(java.lang.String)
+comment4.text=\n\ Takes\ in\ the\ name\ of\ an\ airline,\ and\ returns\ all\ the\ flights\ of\ this\ \n\ airline\ that\ use\ this\ airport\n\ @param\ inputAirline\ The\ name\ of\ the\ airline\ of\ interest\n\ @return\ an\ array\ containing\ all\ flights\ of\ the\ given\ airline\ that\ use\ this\ airport\n
+comment5.params=inputAirline
+comment5.target=void\ printFlightsByAirline(java.lang.String)
+comment5.text=\n\ takes\ in\ the\ name\ of\ an\ airline,\ and\ prints\ all\ its\ flights\ \n\ that\ use\ this\ airport\n\ @param\ inputAirline\ The\ name\ of\ the\ airline\ of\ interest\ \n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ main()\ method\ for\ testing\n
+numComments=7

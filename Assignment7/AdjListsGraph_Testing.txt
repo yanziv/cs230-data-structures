@@ -1,0 +1,101 @@
+TESTING METHODS
+_________________
+New graph created.
+isEmpty() Expect true. Got: true
+
+Testing addVertex()
+isEmpty() Expect false. Got: false
+Printing graph with 4 verices and no arcs. 
+Got:
+Vertices:
+[A, B, C, D]
+Arcs:
+from A: []
+from B: []
+from C: []
+from D: []
+
+Testing addArc()
+New graph has (4):4 vertices and (4):4 arcs
+Printing graph with vertices [A, B, C, D] and arcs: A->B, A->C, B->A, C->B. 
+Got:
+Vertices:
+[A, B, C, D]
+Arcs:
+from A: [B, C]
+from B: [A]
+from C: [B]
+from D: []
+
+isEdge A <--> B? (TRUE) true
+isEdge C <--> B? (FALSE) false
+isArc A --> C? (TRUE) true
+isArc B --> C? (FALSE) false
+isArc B --> D? (FALSE) false
+
+Saving the graph into A-D.tgf
+
+Testing addEdge()
+add an edge between B and D
+Expect vertices [A, B, C, D] and arcs: A->B, A->C, B->A, B->D, C->B, D->B
+Got:
+Vertices:
+[A, B, C, D]
+Arcs:
+from A: [B, C]
+from B: [A, D]
+from C: [B]
+from D: [B]
+
+
+Testing removeEdge()
+try remove the edge between B and D
+Expect vertices [A, B, C, D] and arcs: A->B, A->C, B->A, C->B. 
+Got:
+Vertices:
+[A, B, C, D]
+Arcs:
+from A: [B, C]
+from B: [A]
+from C: [B]
+from D: []
+
+
+Testing removeVertex()
+try remove invalid vertex
+Expect vertices [A, B, C, D] and arcs: A->B, A->C, B->A, C->B. 
+Got:
+Vertices:
+[A, B, C, D]
+Arcs:
+from A: [B, C]
+from B: [A]
+from C: [B]
+from D: []
+
+try remove valid vertex A w 2 arcs
+Expect vertices [B, C, D] and arcs: C->B. 
+Got:
+Vertices:
+[B, C, D]
+Arcs:
+from B: []
+from C: [B]
+from D: []
+
+try remove vertex D w no arcs
+Expect vertices [B, C] and arcs: C->B. 
+Got:
+Vertices:
+[B, C]
+Arcs:
+from B: []
+from C: [B]
+
+try remove vertex from empty graph
+Expect vertices [] and arcs: . 
+Got:
+Vertices:
+[]
+Arcs:
+

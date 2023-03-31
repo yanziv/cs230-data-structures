@@ -1,0 +1,20 @@
+Edge Case Testing (Cyberspace is empty):
+Test printWebStack():
+Results from visiting 0 pages (LIFO order):
+<top of stack>
+<bottom of stack>
+Test findLargest():
+javafoundations.exceptions.EmptyCollectionException: Pop operation failed. Stack is empty.
+null
+-------------------------------------------------------------------------------
+Webpage objects have now been added to Cyberspace:
+Test printWebStack():
+Results from visiting 3 pages (LIFO order):
+<top of stack>
+https://www.netflix.com: 90 : <!doctype html><html lang="en"...
+http://www.bing.com: 21 : <!doctype html><html lang="en"...
+http://www.google.com: 19 : <!doctype html><html itemscope...
+<bottom of stack>
+
+Test findLargest():
+https://www.netflix.com: 90 : <!doctype html><html lang="en"...

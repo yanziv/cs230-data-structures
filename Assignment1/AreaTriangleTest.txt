@@ -1,0 +1,8 @@
+Please enter the length of the first side of a triangle:
+3
+Please enter the length of the second side of a triangle:
+3
+Please enter the length of the third side of a triangle:
+4
+Triangle is isosceles.
+The area of the triangle is 4.47213595499958

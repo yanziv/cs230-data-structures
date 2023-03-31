@@ -1,0 +1,18 @@
+Testing enqueue():
+<front of queue>
+5
+1
+6
+7
+9
+
+----------------------------------------------------------
+Testing isFull():
+BoundedQueue bq1 is full, expected result: true
+Actual output: true
+----------------------------------------------------------
+Testing adding two more elements to the BoundedQueue when it's already full:
+(Expect enqueue failed)
+Actual Output:
+Enqueue failed. BoundedQueue is full.
+Enqueue failed. BoundedQueue is full.
