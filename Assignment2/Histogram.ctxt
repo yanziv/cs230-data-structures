@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Histogram
+comment1.params=Maxdata
+comment1.target=void\ setMaxdata(int)
+comment1.text=\n\ @param\ maximum\ number\ of\ data\ as\ integer\n
+comment2.params=Maxrange
+comment2.target=void\ setMaxrange(int)
+comment2.text=\n\ @param\ maximum\ range\ as\ integer\n
+comment3.params=
+comment3.target=int[]\ generateIntegers()
+comment3.text=\n\ generates\ MAXDATA\ amount\ of\ random\ integers\ within\ an\ array\n\ @return\ an\ array\ named\ data\ \n
+comment4.params=
+comment4.target=int[]\ allocateFreq()
+comment4.text=\n\ puts\ each\ random\ number\ into\ the\ right\ frequency\ range\n\ @return\ an\ array\ named\ frequencyRanges\n
+comment5.params=
+comment5.target=void\ generateHistogram()
+comment5.text=\n\ generates\ a\ histogram\ that\ shows\ the\ number\ of\ random\ numbers\ there\ are\n\ in\ each\ frequency\ range\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ test\ methods\n\ @param\ an\ array\ of\ strings\ \n
+numComments=7

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=BoundedQueue
+comment0.text=\n\ The\ BoundedQueue\ class\ inherits\ the\ Queue\ class\ and\ adds\ a\ maximum\ capacity\ to\ the\ queue.\ \n\n\ @author\ yl102\n\ @version\ 11/06/2021\n
+comment1.params=capacity
+comment1.target=BoundedQueue(int)
+comment1.text=\ \ \n\ Constructor\n\ Create\ a\ BoundedQueue\ object\ with\ a\ max\ capacity\ \n\ @param\ capacity\ The\ capacity\ of\ the\ bounded\ queue\ as\ Integer\ \n
+comment2.params=
+comment2.target=boolean\ isFull()
+comment2.text=\n\ Check\ whether\ the\ bounded\ queue\ is\ full\n\ @return\ a\ boolean\ value\ that\ specifies\ whether\ the\ bounded\ queue\ is\ full\ \n
+comment3.params=element
+comment3.target=void\ enqueue(java.lang.Object)
+comment3.text=\n\ Enqueue\ an\ element\ to\ the\ bounded\ queue\ if\ the\ queue\ is\ not\ full\n\ @param\ element\ An\ element\ of\ a\ generic\ type\ \n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\n\ main()\n\ for\ testing\n
+numComments=5

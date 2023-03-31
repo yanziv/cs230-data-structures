@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GuitarString
+comment0.text=\n\ The\ GuitarString\ class\ models\ a\ vibrating\ guitar\ string.\ \n\n\ @author\ yl102\n\ @version\ 11/7/2021\n
+comment1.params=frequency
+comment1.target=GuitarString(double)
+comment1.text=\n\ Constuctor\ \n\ Create\ a\ guitar\ string\ of\ the\ given\ frequency,\ using\ a\ sampling\ rate\ of\ 44,100\n\ @param\ frequency\ The\ frequency\ of\ the\ guitar\ string\n
+comment2.params=
+comment2.target=void\ pluck()
+comment2.text=\n\ Replace\ the\ samples\ in\ the\ bounded\ queue\ with\ random\ values\ between\ -0.5\ and\ +0.5\n
+comment3.params=
+comment3.target=double\ sample()
+comment3.text=\n\ Return\ the\ value\ of\ the\ item\ at\ the\ front\ of\ the\ bounded\ queue\n\ @return\ the\ value\ of\ the\ item\ at\ the\ front\ of\ the\ bounded\ queue\n
+comment4.params=
+comment4.target=void\ tic()
+comment4.text=\n\ Apply\ the\ Karplus-Strong\ algorithm\ (delete\ the\ sample\ at\ the\ front\ of\ \n\ the\ bounded\ queue\ and\ add\ to\ the\ end\ of\ the\ bounded\ queue\ the\ average\ of\ \n\ the\ deleted\ sample\ and\ the\ sample\ at\ the\ front\ of\ the\ bounded\ queue,\ \n\ multiplied\ by\ the\ energy\ decay\ factor\ of\ 0.994\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\n\ main()\n\ for\ testing\ \n
+numComments=6

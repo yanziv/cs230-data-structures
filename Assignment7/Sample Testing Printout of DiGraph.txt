@@ -1,0 +1,67 @@
+TESTING METHODS
+_________________
+New graph created.
+isEmpty() Expect true. Got: true
+Testing addVertex()
+isEmpty() Expect false. Got: false
+Printing graph with 4 verices and no arcs. 
+Got:
+Vertices: 
+[A, B, C, D]
+
+Arcs: 
+from A: []
+from B: []
+from C: []
+from D: []
+
+Testing addArc()
+Printing graph with vertices [A, B, C, D) and arcs: A->B, A->C, B->A, C->B. 
+Got:
+Vertices: 
+[A, B, C, D]
+
+Arcs: 
+from A: [B, C]
+from B: [A]
+from C: [B]
+from D: []
+
+Testing removeVertex()
+try remove invalid vertex
+Expect vertices [A, B, C, D] and arcs: A->B, A->C, B->A, C->B. 
+Got:
+Vertices: 
+[A, B, C, D]
+
+Arcs: 
+from A: [B, C]
+from B: [A]
+from C: [B]
+from D: []
+
+try remove valid vertex w 2 arcs
+Expect vertices [B, C, D] and arcs: C->B. 
+Got:
+Vertices: 
+[B, C, D]
+
+Arcs: 
+from B: []
+from C: [B]
+from D: []
+
+try remove vertex w no arcs
+Expect vertices [B, C] and arcs: C->B. 
+Got:
+Vertices: 
+[B, C]
+
+Arcs: 
+from B: []
+from C: [B]
+
+try remove vertex from empty graph
+Expect vertices [] and arcs: . 
+Got:
+Graph is empty

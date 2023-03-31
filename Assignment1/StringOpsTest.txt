@@ -1,0 +1,2 @@
+melon and lemon are anagrams
+hello and world are not anagrams
